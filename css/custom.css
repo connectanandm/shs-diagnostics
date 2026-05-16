@@ -2918,6 +2918,21 @@ header.main-header .header-sticky.active{
 	margin-top: 0;
 }
 
+@media (max-width: 768px) {
+    /* Mobile-only footer alignment fix for the first two footer blocks */
+	.main-footer .about-footer,
+	.main-footer .footer-links:not(.footer-location) {
+    padding-left: 0 !important;
+}
+}
+
+@media only screen and (min-width: 992px) {
+    .about-footer,
+    .footer-links:first-of-type {
+        padding-left: 80px;
+    }
+}
+
 /************************************/
 /***    17. About Us Page css  	  ***/
 /************************************/
@@ -5819,6 +5834,13 @@ header.main-header .header-sticky.active{
 	.error-page-image img{
 		max-width: 80%;
 	}
+
+		/* Mobile-only footer alignment fix for the first two footer blocks */
+		.main-footer .about-footer,
+		.main-footer .footer-links:not(.footer-location) {
+			padding-left: 0 !important;
+		}
+
 }
 
 @media only screen and (max-width: 767px){
