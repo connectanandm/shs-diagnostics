@@ -777,6 +777,18 @@ header.main-header .header-sticky.active{
 	color: var(--primary-color);
 }
 
+/* Logo height - Desktop only */
+.navbar-brand img {
+    height: 85px !important;
+}
+
+/* Mobile view - Reset logo height */
+@media (max-width: 767px) {
+    .navbar-brand img {
+        height: auto !important;
+    }
+}
+
 /************************************/
 /***        04. Hero css	      ***/
 /************************************/
